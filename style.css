@@ -1,0 +1,169 @@
+/*Text Styles
+h1 60 bold
+h2 50 bold
+h3 40 bold
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6fc;
+}*/
+
+body{
+    width:  1440px;
+    height: 4490px;
+    background: #f4f6fc;
+}
+
+
+/* Navbar */
+
+.nav-sect {
+    position: absolute;
+    width: 1440px;
+    height: 122px;
+    left: calc(50% - 1440px/2);
+    top: 0px;
+
+
+}
+
+/* Container 1 */
+
+.container1 {
+    position: absolute;
+    width: 1099.36px;
+    height: 52px;
+    left: 170.64px;
+    top: 70px;
+}
+
+
+
+
+
+li , a, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #072ac8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-blue {
+    /*position: static;*/
+    width: 120px;
+    height: 44px;
+    left: 33px;
+    top: 15px;
+    color: white;
+    background-color: #072ac8;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+.button-blue a:hover {
+    color: gris;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links a:hover {
+    color: gray ;
+}
+
+
+/* Hero Section */
+
+.hero {
+    position: absolute;
+    width: 1440px;
+    height: 650px;
+    left: calc(50% - 1440px/2);
+    top: 222px;
+}
+
+/* Container 2 */
+
+.container2 {
+    position: absolute;
+    /*display: flex;*/
+    width: 1100px;
+    height: 650px;
+    left: 170px;
+    top: 0px;
+
+}
+
+
+/* Empower Your Business With Stunning Design! */
+
+/*
+position: absolute;
+width: 530px;
+height: 210px;
+left: 170px;
+top: 109px;
+
+/* H1 */
+/*
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 70px;
+*/
+
+/* Neutral/Dark */
+/*
+color: #292E47;
+*/
+
+.heroText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #292E47;
+}
+
+
+
+
+/* Para identificar div
+div {
+    background-color: #404040;
+    border-radius: 10px;
+    border: solid 2px #000000;
+  }
+
+div:hover {
+    filter: opacity(0.9);
+    transform: scale(1.03);
+  }
+  */
