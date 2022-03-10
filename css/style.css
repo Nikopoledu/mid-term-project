@@ -295,7 +295,7 @@
   }
   
   .client-name {
-    color: a2d6f9;
+    color: #a2d6f9;
   }
   
   .client-info {
@@ -431,16 +431,19 @@
     margin-left: 40px;
   }
   
+/* Contact Us Formulario */
+
   .contact-form,
   .contact-form h1,
   .contact-form label {
-    background-color: #fff;
+    background-color: #f4f6ff;
   }
   
   .contact-form {
     max-width: 80%;
     margin: 40px auto;
     padding-top: 20px;
+    background-color:#f4f6ff;
   }
   
   .contact-form h1 {
@@ -455,11 +458,12 @@
     padding: 20px 0;
     border: none;
     font-size: 20px;
+    text-align:left;
   }
   
   .contact-form form input,
   .contact-form form textarea {
-    background-color: f4f6fc;
+    background-color: rgba(107, 112, 141, 0.1);
   }
   
   .contact-form form textarea {
@@ -470,9 +474,16 @@
     margin-top: 20px;
     background-color: #072ac8;
     color: #fff;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
   }
   
-  @media (min-width: 768px) {
+  @media screen 
+    and (min-width: 768px)
+    and (-webkit-min-device-pixel-ratio:1)
+   {
     .circle {
       display: inline;
       margin: 0 auto;
